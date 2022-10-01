@@ -28,30 +28,30 @@ export default function ContactMe({ pageInfo }: Props) {
       className="h-screen relative flex flex-col text-center md:text-left 
     max-w-7xl px-10  mx-auto pt-20 items-center"
     >
-      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-lg md:text-2xl ml-4 text-center">
+      <h3 className="absolute top-20 uppercase tracking-[20px] text-gray-500 text-lg md:text-xl ml-4 text-center">
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-5 mt-20">
-        <h4 className="text-2xl md:text-3xl font-semibold text-center">
+      <div className="flex flex-col space-y-2 mt-16">
+        <h4 className="text-2xl  font-semibold text-center">
           Like what you see?{" "}
           <span className="underline decoration-green-700/70">
             Get in touch.
           </span>
         </h4>
       </div>
-      <div className="space-y-1 md:space-y-5 mt-10">
+      <div className="space-y-1 md:space-y-2 mt-10">
         <div className="flex items-center space-x-5 justify-center">
           <PhoneIcon className="text-green-700 h-4 w-4 md:h-7 md:w-7 animate-pulse" />
-          <p className="text-lg md:text-2xl">{pageInfo.phoneNumber}</p>
+          <p className="text-lg md:text-xl">{pageInfo.phoneNumber}</p>
         </div>
         <div className="flex items-center space-x-5 justify-center">
           <EnvelopeIcon className="text-green-700 h-4 w-4 md:h-7 md:w-7 animate-pulse" />
-          <p className="text-lg md:text-2xl">{pageInfo.email}</p>
+          <p className="text-lg md:text-xl">{pageInfo.email}</p>
         </div>
         <div className="flex items-center space-x-5 justify-center">
           <MapPinIcon className="text-green-700 h-4 w-4 md:h-7 md:w-7 animate-pulse" />
-          <p className="text-lg md:text-2xl">{pageInfo.address}</p>
+          <p className="text-lg md:text-xl">{pageInfo.address}</p>
         </div>
       </div>
       <form
