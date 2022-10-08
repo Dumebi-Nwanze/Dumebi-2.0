@@ -29,10 +29,7 @@ export default function Skills({ skills }: Props) {
         Skills
       </h3>
 
-      <div
-        className="grid grid-cols-4 gap-5 xl:grid-cols-5 h-80 lg:w-[36rem] overflow-y-scroll overflow-x-hidden
-      scrollbar-track-gray-500 scrollbar-thumb-green-700 scrollbar-thin"
-      >
+      <div className="grid grid-cols-4 gap-5 xl:grid-cols-5 h-96 lg:w-[36rem] overflow-y-scroll overflow-x-hidden scrollbar-none">
         {skills.map((skill, index) => (
           <Skill key={index} skill={skill} />
         ))}

@@ -34,7 +34,7 @@ const Home = ({ projects, pageInfo, experiences, skills, socials }: Props) => {
   return (
     <div
       className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory 
-    overflow-x-hidden  z-0 overflow-y-scroll scrollbar-thin md:scrollbar scrollbar-track-gray-500 scrollbar-thumb-green-700"
+    overflow-x-hidden  z-0 overflow-y-scroll scrollbar-none md:scrollbar scrollbar-track-gray-500 scrollbar-thumb-green-700"
     >
       <Head>
         <title>Dumebi 2.0</title>
